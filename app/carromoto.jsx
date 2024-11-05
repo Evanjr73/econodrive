@@ -53,17 +53,20 @@ export default function Vamosla() {
   const router = useRouter()
   return (
     <View style={styles.body}>
+
+
       <View style={styles.containerSimples}>
         <Image source={require("../assets/images/EconoDrive.png")} style={styles.logoG} resizeMode="contain"></Image>
         <Text style={{fontSize:25 , marginBottom:10, fontFamily:'Inter-Black'}}>MINHA VIAGEM VAI SER DE </Text>
         <Pressable style={stylesButtons.CarroMoto}
           onPress={() => router.push('./carro/Combustivel')} >
-          <Text style={{ fontFamily: 'Inter-Black' }}>CARRO</Text>
+          {/* <Text style={{ fontFamily: 'Inter-Black' }}>CARRO</Text> */}
+          <Image source={ require("../assets/images/carronegro.png") }style={styles.logobuttons} resizeMode="contain"></Image>
 
         </Pressable>
         <Pressable style={stylesButtons.CarroMoto}
           onPress={() => router.push('/moto/moto')} >
-          <Text style={{ fontFamily: 'Inter-Black' }}>MOTO</Text>
+            <Image source={ require("../assets/images/motonegra.png") }style={styles.logobuttons} resizeMode="contain"></Image>
 
         </Pressable>
 

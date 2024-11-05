@@ -8,7 +8,7 @@ import {
 
 
 
-const devmode = false;
+const devmode = true;
 //////////Open App /////////////////
 export const adUnitId = devmode ? TestIds.APP_OPEN : "ca-app-pub-6400911604782344/6815725444";
  export const appOpenAd = AppOpenAd.createForAdRequest(adUnitId, {

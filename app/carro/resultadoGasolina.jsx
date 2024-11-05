@@ -67,6 +67,7 @@ export default function ResultadoMoto() {
 
     return (
         <View style={styles.body}>
+                  
             {!showButton ? (
                 // Exibe a animação se o botão ainda não foi mostrado
                 <View style={styles.containerSimples}>
@@ -83,7 +84,17 @@ export default function ResultadoMoto() {
                             borderRadius: 30
                         }}
                     />
+                            <BannerAd
+                    unitId={addBannerUnited}
+                    size={BannerAdSize.FULL_BANNER}
+                />
+   <BannerAd
+                    unitId={addBannerUnited}
+                    size={BannerAdSize.FULL_BANNER}
+                />
+
                 </View>
+                
             ) : (
 
                 // Exibe o botão "Vamos lá" após a animação
@@ -148,10 +159,10 @@ export default function ResultadoMoto() {
                         <Text style={{ fontSize: 25, fontFamily:'Inter-Black' }}> VALOR DE COMBUSTIVEL</Text>
                         <View style={stylesButtons.CarroMoto}>
 
-                            <Text style={{ fontSize: 25, fontFamily:'Inter-Black' }}> R${consumo.toFixed(2)}</Text>
+                            <Text style={{ fontSize: 20, fontFamily:'Inter-Black' }}> R${consumo.toFixed(2)}</Text>
                         </View>
 
-                        <Text style={{ fontSize: 25 }}>QUANTIDADES DE LITROS GASTOS DE COMBUSTIVEL</Text>
+                        <Text style={{ fontSize: 20,fontFamily:'Inter-Black'   }}>QUANTIDADES DE LITROS GASTOS DE COMBUSTIVEL</Text>
                         <View style={stylesButtons.CarroMoto}>
 
                             <Text style={{ fontSize: 25 , fontFamily:'Inter-Black'}}> {litros.toFixed(2)} LITROS</Text>
@@ -226,14 +237,10 @@ export default function ResultadoMoto() {
                     </View>
                 </View>
             )}
-                 <BannerAd
-                    unitId={addBannerUnited}
-                    size={BannerAdSize.FULL_BANNER}
-                />
-                     <BannerAd
-                    unitId={addBannerUnited}
-                    size={BannerAdSize.FULL_BANNER}
-                />
+       
+              
+           
+           
         </View>
     );
 }

@@ -28,11 +28,18 @@ export const styles = StyleSheet.create({
         
         marginBottom:20
     },
+    logobuttons:{
+        width:250,
+        height:100,
+        padding:0
+        
+     
+    },
     containerSimples:{
         height:"auto",
         width:"auto",
         alignItems:"center",
-        marginTop:250
+        marginTop:170
     },
     containerSimplesOut:{
         height:"auto",

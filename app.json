@@ -4,7 +4,7 @@
     "slug": "econodrive",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/EconoDrive.png",
+    "icon": "./assets/images/EconoDriv.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
@@ -17,7 +17,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/EconoDrive.png",
+        "foregroundImage": "./assets/images/EconoDriv.png",
         "backgroundColor": "#00C0EB"
       },
       "package": "com.evan_junior73.econodrive"
@@ -25,7 +25,7 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/EconoDrive.png"
+      "favicon": "./assets/images/EconoDriv.png"
     },
     "plugins": [
       "expo-router",

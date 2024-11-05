@@ -38,15 +38,15 @@ export default function CarroCombustivel() {
             <View style={styles.containerSimplesOut}>
 
                 <Image source={require("../../assets/images/EconoDrive.png")} style={styles.logoM} resizeMode="contain"></Image>
-                <Text style={{ fontSize: 25, marginBottom: 10 , fontFamily: 'Inter-black'}}>VOU USAR  </Text>
+                <Text style={{ fontSize: 30, marginBottom: 10 , fontFamily: 'Inter-black'  }}>VOU USAR  </Text>
 
                 <Pressable style={stylesButtons.CarroMoto} onPress={() => router.push('/carro/resultadoGasolina')}  >
 
-                    <Text style={{ fontFamily: 'Inter-black'}} >GASOLINA</Text>
+                    <Text style={{ fontFamily: 'Inter-black', fontSize: 20}} >GASOLINA</Text>
 
                 </Pressable>
                 <Pressable style={stylesButtons.CarroMoto} onPress={() => router.push('/carro/resultadoEtanol')}  >
-                    <Text style={{ fontFamily: 'Inter-black'}} >ÁLCOOL</Text>
+                    <Text style={{ fontFamily: 'Inter-black' , fontSize: 20}} >ÁLCOOL</Text>
 
 
 

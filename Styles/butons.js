@@ -18,13 +18,16 @@ export const stylesButtons = StyleSheet.create({
     CarroMoto:{
         height:70,
         width:300,
-        backgroundColor:"#D9D9D9",
+        backgroundColor:"yellow",
         borderRadius:15,
         alignItems:"center",
         justifyContent:"center",
         marginBottom:20,
         padding:10,
-        fontSize:15
+        fontSize:15,
+      
+        
+
     },
     setaEsquerda:{
         width:60,
