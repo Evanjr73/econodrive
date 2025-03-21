@@ -12,6 +12,7 @@ web-build/
 node_modules
 app.json
 android
+.expo
 # macOS
 .DS_Store
 
