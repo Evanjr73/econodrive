@@ -1,0 +1,237 @@
+{
+    "montadoras": {
+      "Volkswagen": {
+        "modelos": {
+          "Gol_2015": {
+            "nome": "Gol",
+            "ano": "2015",
+            "GaCidade": 14,
+            "GaRodovia": 15,
+            "EtaCidade": 9,
+            "EtaRodovia": 10
+          },
+          "Polo_2022": {
+            "nome": "Polo",
+            "ano": "2022",
+            "GaCidade": 13,
+            "GaRodovia": 15,
+            "EtaCidade": 10,
+            "EtaRodovia": 11
+          },
+          "Virtus_2021": {
+            "nome": "Virtus",
+            "ano": "2021",
+            "GaCidade": 12,
+            "GaRodovia": 14,
+            "EtaCidade": 9,
+            "EtaRodovia": 11
+          },
+          "T-Cross_2020": {
+            "nome": "T-Cross",
+            "ano": "2020",
+            "GaCidade": 11,
+            "GaRodovia": 13,
+            "EtaCidade": 8,
+            "EtaRodovia": 10
+          },
+          "Saveiro_2019": {
+            "nome": "Saveiro",
+            "ano": "2019",
+            "GaCidade": 13,
+            "GaRodovia": 15,
+            "EtaCidade": 9,
+            "EtaRodovia": 11
+          },
+          "Nivus_2021": {
+            "nome": "Nivus",
+            "ano": "2021",
+            "GaCidade": 12,
+            "GaRodovia": 14,
+            "EtaCidade": 10,
+            "EtaRodovia": 12
+          },
+          "Fox_2020": {
+            "nome": "Fox",
+            "ano": "2020",
+            "GaCidade": 13,
+            "GaRodovia": 15,
+            "EtaCidade": 10,
+            "EtaRodovia": 12
+          },
+          "Amarok_2022": {
+            "nome": "Amarok",
+            "ano": "2022",
+            "GaCidade": 8,
+            "GaRodovia": 10,
+            "EtaCidade": 6,
+            "EtaRodovia": 8
+          },
+          "Taos_2023": {
+            "nome": "Taos",
+            "ano": "2023",
+            "GaCidade": 10,
+            "GaRodovia": 12,
+            "EtaCidade": 8,
+            "EtaRodovia": 10
+          }
+        }
+      },
+      "Chevrolet": {
+        "modelos": {
+          "Onix_2022": {
+            "nome": "Onix",
+            "ano": "2022",
+            "GaCidade": 16,
+            "GaRodovia": 18,
+            "EtaCidade": 12,
+            "EtaRodovia": 14
+          },
+          "Cruze_2019": {
+            "nome": "Cruze",
+            "ano": "2019",
+            "GaCidade": 10,
+            "GaRodovia": 12,
+            "EtaCidade": 8,
+            "EtaRodovia": 10
+          },
+          "Tracker_2021": {
+            "nome": "Tracker",
+            "ano": "2021",
+            "GaCidade": 13,
+            "GaRodovia": 14,
+            "EtaCidade": 10,
+            "EtaRodovia": 12
+          },
+          "S10_2022": {
+            "nome": "S10",
+            "ano": "2022",
+            "GaCidade": 8,
+            "GaRodovia": 10,
+            "EtaCidade": 6,
+            "EtaRodovia": 8
+          },
+          "Spin_2020": {
+            "nome": "Spin",
+            "ano": "2020",
+            "GaCidade": 11,
+            "GaRodovia": 13,
+            "EtaCidade": 8,
+            "EtaRodovia": 10
+          },
+          "Cobalt_2019": {
+            "nome": "Cobalt",
+            "ano": "2019",
+            "GaCidade": 12,
+            "GaRodovia": 14,
+            "EtaCidade": 9,
+            "EtaRodovia": 11
+          },
+          "Montana_2022": {
+            "nome": "Montana",
+            "ano": "2022",
+            "GaCidade": 10,
+            "GaRodovia": 12,
+            "EtaCidade": 8,
+            "EtaRodovia": 10
+          },
+          "Camaro_2023": {
+            "nome": "Camaro",
+            "ano": "2023",
+            "GaCidade": 5,
+            "GaRodovia": 7,
+            "EtaCidade": 4,
+            "EtaRodovia": 6
+          },
+          "Equinox_2022": {
+            "nome": "Equinox",
+            "ano": "2022",
+            "GaCidade": 9,
+            "GaRodovia": 11,
+            "EtaCidade": 7,
+            "EtaRodovia": 9
+          },
+          "Blazer_2021": {
+            "nome": "Blazer",
+            "ano": "2021",
+            "GaCidade": 8,
+            "GaRodovia": 10,
+            "EtaCidade": 6,
+            "EtaRodovia": 8
+          },
+          "Prisma_2020": {
+            "nome": "Prisma",
+            "ano": "2020",
+            "GaCidade": 14,
+            "GaRodovia": 16,
+            "EtaCidade": 11,
+            "EtaRodovia": 13
+          },
+          "Captiva_2019": {
+            "nome": "Captiva",
+            "ano": "2019",
+            "GaCidade": 7,
+            "GaRodovia": 9,
+            "EtaCidade": 5,
+            "EtaRodovia": 7
+          },
+          "Trailblazer_2021": {
+            "nome": "Trailblazer",
+            "ano": "2021",
+            "GaCidade": 8,
+            "GaRodovia": 10,
+            "EtaCidade": 6,
+            "EtaRodovia": 8
+          },
+          "Zafira_2012": {
+            "nome": "Zafira",
+            "ano": "2012",
+            "GaCidade": 9,
+            "GaRodovia": 11,
+            "EtaCidade": 7,
+            "EtaRodovia": 9
+          }
+        }
+      },
+      "Fiat": {
+        "modelos": {
+          "Argo_2021": {
+            "nome": "Argo",
+            "ano": "2021",
+            "GaCidade": 15,
+            "GaRodovia": 17,
+            "EtaCidade": 11,
+            "EtaRodovia": 13
+          },
+          "Strada_2020": {
+            "nome": "Strada",
+            "ano": "2020",
+            "GaCidade": 14,
+            "GaRodovia": 16,
+            "EtaCidade": 10,
+            "EtaRodovia": 12
+          }
+        }
+      },
+      "Toyota": {
+        "modelos": {
+          "Corolla_2023": {
+            "nome": "Corolla",
+            "ano": "2023",
+            "GaCidade": 12,
+            "GaRodovia": 14,
+            "EtaCidade": 10,
+            "EtaRodovia": 12
+          },
+          "Hilux_2020": {
+            "nome": "Hilux",
+            "ano": "2020",
+            "GaCidade": 8,
+            "GaRodovia": 10,
+            "EtaCidade": 6,
+            "EtaRodovia": 8
+          }
+        }
+      }
+    }
+  }
+  

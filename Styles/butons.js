@@ -1,8 +1,4 @@
-
-
-
 import { StyleSheet } from 'react-native';
-
 
 export const stylesButtons = StyleSheet.create({
     vamosla:{
@@ -25,18 +21,12 @@ export const stylesButtons = StyleSheet.create({
         marginBottom:20,
         padding:10,
         fontSize:15,
-      
-        
-
     },
     setaEsquerda:{
         width:60,
         height:35,
-        
         marginBottom:20,
         marginTop:25
     }
-
-
   });
 

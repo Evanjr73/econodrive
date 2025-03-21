@@ -60,6 +60,11 @@
       "eas": {
         "projectId": "79d34c50-e566-4cc7-a826-76ace72f6a58"
       }
+    },
+    "expo": {
+      "assetBundlePatterns": [
+        "assets/fonts/*"
+      ]
     }
   }
 }

@@ -1,17 +1,10 @@
-import { Text, View, Image, Animated, Pressable } from "react-native";
+import { Text, View, Image, Pressable } from "react-native";
 import { styles } from "../Styles/layout";
 import { stylesButtons } from "../Styles/butons";
-import { useEffect, useRef, useState } from "react";
-import { Link, useRouter } from 'expo-router'; // useRouter para navegação
-import {
-  BannerAd,
-  BannerAdSize,
-  AdEventType,
-  
- 
-}from "react-native-google-mobile-ads";
-import { addBannerUnited  , interstitialVideoad, adUnitId ,appOpenAd} from "../constants/ads"
-
+import { useEffect, useState } from "react";
+import { useRouter } from 'expo-router'; 
+import { AdEventType,}from "react-native-google-mobile-ads";
+import { interstitialVideoad,appOpenAd} from "../constants/ads"
 
 export default function Vamosla() {
   const [videoloading, setVideoloading] = useState(false);
@@ -21,13 +14,11 @@ export default function Vamosla() {
     const unsub = interstitialVideoad.addAdEventListener(AdEventType.LOADED, () => {
       console.log("Interstitial padrão foi carregado");
       setVideoloading(true);
-      interstitialVideoad.show(); // Mostrar o anúncio quando estiver carregado
+      interstitialVideoad.show();
     });
-
     interstitialVideoad.load();
-
     return () => {
-      unsub(); // Limpar o listener ao desmontar o componente
+      unsub(); 
     };
   }, []);
     
@@ -35,47 +26,28 @@ export default function Vamosla() {
     const unsubb = appOpenAd.addAdEventListener(AdEventType.LOADED, () => {
       console.log("Interstitial padrão foi carregado");
       setAppopenload(true);
-      appOpenAd.show(); // Mostrar o anúncio quando estiver carregado
+      appOpenAd.show();
     });
-
     appOpenAd.load();
-
     return () => {
-      unsubb(); // Limpar o listener ao desmontar o componente
+      unsubb();
     };
   }, []);
-
-
-
-
-
-
+  
+  
   const router = useRouter()
   return (
     <View style={styles.body}>
-
-
       <View style={styles.containerSimples}>
         <Image source={require("../assets/images/EconoDrive.png")} style={styles.logoG} resizeMode="contain"></Image>
         <Text style={{fontSize:25 , marginBottom:10, fontFamily:'Inter-Black'}}>MINHA VIAGEM VAI SER DE </Text>
-        <Pressable style={stylesButtons.CarroMoto}
-          onPress={() => router.push('./carro/Combustivel')} >
-          {/* <Text style={{ fontFamily: 'Inter-Black' }}>CARRO</Text> */}
+        <Pressable style={stylesButtons.CarroMoto}onPress={() => router.push('./carro/Combustivel')} >
           <Image source={ require("../assets/images/carronegro.png") }style={styles.logobuttons} resizeMode="contain"></Image>
-
         </Pressable>
-        <Pressable style={stylesButtons.CarroMoto}
-          onPress={() => router.push('/moto/moto')} >
+        <Pressable style={stylesButtons.CarroMoto} onPress={() => router.push('/moto/moto')} >
             <Image source={ require("../assets/images/motonegra.png") }style={styles.logobuttons} resizeMode="contain"></Image>
-
         </Pressable>
-
-
       </View>
-   
-
-
-
     </View>
   );
 }
